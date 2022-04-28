@@ -1,0 +1,23 @@
+#include <stdio.h>
+void main()
+{
+    int x,y;
+    printf("enter the number between 0 to 39\n");
+    scanf("%d",&y);
+    if(y/10==0)
+    printf("the number is in range 0 to 9");
+    else if(y/10==1)
+    printf("the number is in range 10 to 19\n");
+    else if(y/10==2)
+    printf("the number is in range 20 to 29\n");
+    else if(y/10==3)
+    printf("the number is in range 30 to 39\n");
+
+}
+
+
+
+/tmp/0NHJTMuuY6.o
+enter the number between 0 to 39
+25
+the number is in range 20 to 29

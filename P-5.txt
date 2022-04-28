@@ -1,0 +1,23 @@
+#include <stdio.h>
+void main()
+{
+    int a,b,sum;
+    printf("Enter the numbers\n");
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    printf("the sum of %d\n",sum);
+    if (sum>20)
+    printf("sum is greater than 20\n");
+    else if (sum <20)
+    printf("sum is lesser than 10\n");
+}   
+
+
+
+
+/tmp/0NHJTMuuY6.o
+Enter the numbers
+5
+4
+the sum of 9
+sum is lesser than 10
